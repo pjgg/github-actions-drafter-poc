@@ -10,7 +10,7 @@ jobs:
       - name: Draft main release
         uses: release-drafter/release-drafter@v5.17.6
         with:
-          config-name: main-release-drafter.yml
+          config-name: release-drafter.yml
           name: Upstream Pre-release
           commitish: main
           tag-template: "v$NEXT_PATCH_VERSION"
