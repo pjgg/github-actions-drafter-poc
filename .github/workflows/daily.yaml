@@ -13,7 +13,7 @@ jobs:
           config-name: release-drafter.yml
           name: Product Pre-release
           commitish: 1.0.z
-          tag: v$NEXT_PATCH_VERSION
+          tag-template: "v$NEXT_PATCH_VERSION"
           publish: true
           prerelease: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
