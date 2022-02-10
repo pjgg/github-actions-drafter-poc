@@ -10,10 +10,10 @@ jobs:
       - name: Draft product release
         uses: release-drafter/release-drafter@v5.17.6
         with:
-          config-name: product-release-drafter.yml
+          config-name: release-drafter.yml
           name: Product Pre-release
-          commitish: main
-          tag: 1.0.1
+          commitish: 1.0.z
+          tag: v$NEXT_PATCH_VERSION
           publish: true
           prerelease: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
