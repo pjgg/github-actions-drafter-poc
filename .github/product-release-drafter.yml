@@ -23,6 +23,6 @@ categories:
     label: 'chore'
 change-template: '- #$NUMBER: $TITLE (@$AUTHOR)'
 template: |
-  ## Main Changes
+  ## Main Product Release Changes
   $CHANGES
   All contributors: $CONTRIBUTORS

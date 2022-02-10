@@ -1,5 +1,6 @@
 name-template: 'v$NEXT_PATCH_VERSION 🌈'
 tag-template: 'v$NEXT_PATCH_VERSION'
+commitish: main
 branches:
   - refs/head/main
   - main
@@ -22,6 +23,6 @@ categories:
     label: 'chore'
 change-template: '- #$NUMBER: $TITLE (@$AUTHOR)'
 template: |
-  ## Main Changes
+  ## Main Upstream Changes
   $CHANGES
   All contributors: $CONTRIBUTORS
