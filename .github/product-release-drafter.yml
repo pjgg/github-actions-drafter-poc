@@ -1,9 +1,5 @@
 name-template: 'v$NEXT_PATCH_VERSION 🌈'
 tag-template: 'v$NEXT_PATCH_VERSION'
-commitish: 1.0.z
-branches:
-  - refs/head/1.0.z
-  - 1.0.z
 categories:
   - title: '🚀 New features and improvements'
     labels:
