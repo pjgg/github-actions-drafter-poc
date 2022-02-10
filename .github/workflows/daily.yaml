@@ -11,7 +11,7 @@ jobs:
         uses: release-drafter/release-drafter@v5.17.6
         with:
           config-name: product-release-drafter.yml
-          name: Upstream Pre-release
+          name: Product Pre-release
           commitish: main
           tag: 1.0.1
           publish: true
